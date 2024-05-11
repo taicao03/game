@@ -3,7 +3,7 @@ import HomeContent from "../../components/page/home/index";
 
 export default function Home() {
   return (
-    <div className="px-[50px]">
+    <div className="p-[50px]">
       <HomeContent />
     </div>
   );

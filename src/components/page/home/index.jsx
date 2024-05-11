@@ -1,6 +1,8 @@
 import React from "react";
 import CpnMenuScore from "../../ui/menuScore";
-import Button from "../../ui/button";
+import ReplyMedia from "./ReplyMedia";
+// import FillBlank from "./FillBlank";
+// import MultipleSingleChoice from "./MultipleSingleChoice";
 const fakeData = [
   {
     name: "Holund",
@@ -46,7 +48,7 @@ const fakeData = [
 export default function CPNHome() {
   return (
     <div>
-      <div className="flex justify-end">
+      <div className="flex justify-end pb-5">
         <div className="bg-secondary rounded-2xl w-fit px-5 py-3">
           <p className="font-normal text-[32px] text-primary">
             Thời gian còn lại: 40s
@@ -57,7 +59,9 @@ export default function CPNHome() {
       <div className="grid grid-cols-3 gap-5">
         <CpnMenuScore data={fakeData} className={"col-span-1"} />
         <div className="col-span-2">
-          <Button label="Submit" type={"submit"} />
+          {/* <FillBlank /> */}
+          {/* <MultipleSingleChoice /> */}
+          <ReplyMedia/>
         </div>
       </div>
     </div>

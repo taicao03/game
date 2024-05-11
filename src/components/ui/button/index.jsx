@@ -1,11 +1,11 @@
 import React from "react";
 
-export default function Button({ type, label }) {
+export default function Button({ type, label, className }) {
   return (
-    <div>
+    <div className={className}>
       <button
         type={type}
-        className={`font-normal text-[32px] text-primary bg-secondary rounded-2xl px-10`}
+        className={`${type === 'submit' &&  'px-20'} font-normal text-[32px] text-primary bg-secondary rounded-2xl px-10`}
       >
         {label}
       </button>
