@@ -1,6 +1,8 @@
 import React from "react";
 import CpnMenuScore from "../../ui/menuScore";
-import ReplyMedia from "./ReplyMedia";
+import WordCloudPicker from "./WordCloudPicker";
+import FlipCardMatch from "./FlipCardMatch";
+// import ReplyMedia from "./ReplyMedia";
 // import FillBlank from "./FillBlank";
 // import MultipleSingleChoice from "./MultipleSingleChoice";
 const fakeData = [
@@ -61,9 +63,13 @@ export default function CPNHome() {
         <div className="col-span-2">
           {/* <FillBlank /> */}
           {/* <MultipleSingleChoice /> */}
-          <ReplyMedia/>
+          {/* <ReplyMedia/> */}
+          <WordCloudPicker />
+          <FlipCardMatch/>
         </div>
       </div>
     </div>
-  );
+
+)
+  
 }
