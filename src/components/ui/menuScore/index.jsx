@@ -1,8 +1,9 @@
 import React from "react";
 
+// hi
 export default function CpnMenuScore({ data, className }) {
   return (
-    <div className={`bg-secondary rounded-2xl px-8 ${className}`}>
+    <div className={`bg-secondary rounded-2xl px-8 max-w-[525px] ${className}`}>
       <div className="flex justify-center text-[48px] font-normal text-primary mb-7">
         Leader Board
       </div>
