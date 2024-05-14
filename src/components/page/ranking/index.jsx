@@ -8,7 +8,7 @@ export default function CPNRanking() {
         type={"button"}
         label={"LeaderBoard"}
         classButton={"px-5"}
-        href={"/"}
+        href={"/leaderboard"}
       />
 
       <div className="flex justify-center items-center mb-10">

@@ -15,6 +15,7 @@ export default function LeaderBoard() {
         className={"mt-2"}
         label={"Ranking"}
         iconRight={"iconBackRight.svg"}
+        href={'/ranking'}
       />
     </div>
   );

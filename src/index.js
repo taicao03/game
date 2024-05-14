@@ -8,6 +8,7 @@ import Home from "../src/page/home/index";
 import Ranking from "./page/ranking";
 import LeaderBorad from "./page/leaderBorad";
 import LuckyDraw from "./page/luckyDraw";
+import Admin from "./page/admin";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
     path: "/ranking",
     element: <Ranking />,
+  },
+  {
+    path: "/admin",
+    element: <Admin />,
   },
 ]);
 
